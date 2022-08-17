@@ -3,3 +3,5 @@
 Utilizada a API Faker para implementação.
 
 Cenários:
+
+[![](testes)](https://github.com/eduardacf/poc-test-api-cypress/blob/master/img/testes.PNG)
