@@ -4,5 +4,9 @@ Utilizada a [API Faker](https://fakerestapi.azurewebsites.net/index.html "API Fa
 
 #### Cenários:
 
-<center>![Logo](https://raw.githubusercontent.com/eduardacf/poc-test-api-cypress/master/img/testes.PNG)</center>
+<center>
+  
+  ![Logo](https://raw.githubusercontent.com/eduardacf/poc-test-api-cypress/master/img/testes.PNG)
+
+</center>
 
