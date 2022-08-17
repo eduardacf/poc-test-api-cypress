@@ -8,9 +8,10 @@ describe('Get Book ID', () => {
             return bookSchema.validateAsync(response.body[0])
         }))
     })
-    it('Buscar Livros pelo ID.', () => {
+    it('Buscar Livro pelo ID.', () => {
         cy.getBookId(1).then((response => {
             expect(response.status).to.eq(200)
+            expect(response.body.id).to.eq(1)
         }))
     })
 })

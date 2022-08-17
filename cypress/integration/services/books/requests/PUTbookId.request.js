@@ -1,13 +1,14 @@
 /// <reference types="cypress" />
 const payloadAddBooks = require('../payloads/add-book.payload.json')
-Cypress.Commands.add('postBooks', () => {
+payloadAddBooks.title = 'Alterando Titulo do Livro';
+Cypress.Commands.add('putBook', (id) => {
     cy.request({
-        method: 'POST',
-        url: '/v1/Books',
+        method: 'PUT',
+        url: `/v1/Books/${id}`,
         headers: {
             accept: "application/json"
         },
-        body: payloadAddBooks.title.valueOf("Alterando o titulo"),
+        body: payloadAddBooks,
         failOnStatusCode: false
     })
 })
