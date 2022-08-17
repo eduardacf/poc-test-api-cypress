@@ -1,0 +1,11 @@
+{
+    "baseUrl": "https://fakerestapi.azurewebsites.net/api",
+    "video": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "mochawesome-report/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}
